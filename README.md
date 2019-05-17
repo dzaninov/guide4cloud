@@ -1,4 +1,4 @@
-# cloud
+# Personal Cloud
 
 ## OS Setup
 t3.nano with Ubuntu 18.04
