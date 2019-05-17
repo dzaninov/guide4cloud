@@ -1,9 +1,8 @@
 # cloud
 
 ## OS Setup
-
 t3.nano with Ubuntu 18.04
-
+```
 sudo bash
 ufw allow 22/tcp
 ufw enable
@@ -22,3 +21,4 @@ cat <<EOT > /etc/hosts
 EOT
 
 reboot
+```
