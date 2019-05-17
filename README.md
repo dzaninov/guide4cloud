@@ -1,7 +1,7 @@
 # cloud
 
 ## OS Setup
-===================================
+
 t3.nano with Ubuntu 18.04
 
 sudo bash
