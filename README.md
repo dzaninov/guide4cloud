@@ -22,3 +22,16 @@ EOT
 
 reboot
 ```
+
+## Add swap
+```
+dd if=/dev/zero of=/swap bs=1M count=1024
+mkswap /swap
+chmod 600 /swap
+swapon /swap
+
+vi /etc/fstab
+---------------------------------------------------
+/swap  swap  swap  defaults  0 0
+---------------------------------------------------
+```
