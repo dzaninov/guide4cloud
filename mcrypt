@@ -1,0 +1,5 @@
+#!/bin/bash
+LOG=$HOME/mcrypt.log
+echo '------------------------------------' >> $LOG
+date >> $LOG
+/srv/mcrypt.pl "$1" 2>> $LOG
